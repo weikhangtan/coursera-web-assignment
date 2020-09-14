@@ -1,0 +1,71 @@
+*{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	box-sizing: border-box;
+	padding: 0px;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.container1, .container2, .container3{
+	background: grey;
+	border: 3px solid black;
+	margin: 10px;
+}
+
+.e1_row1, .e2_row1, .e3_row1 {
+	float: right;
+	width: 100px;
+	text-align: center;
+	border: 1px solid black;
+	border-right: 0px;
+	border-top: 0px;
+	margin: 0px;
+}
+
+.e1_row2, .e2_row2, .e3_row2 {
+	margin: 25px 0px 0px 0px;
+	/* padding: top right bottom left;*/
+	padding: 0px 0px 5px 5px;
+}
+
+.e1_row1 {
+	background: green;
+}
+
+.e2_row1 {
+	background: red;
+}
+
+.e3_row1 {
+	background: yellow;
+}
+
+@media (min-width: 992px){
+	.col-lg-4 {
+		width: 33.33%;
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6 {
+		width: 50%;
+		float: left;
+	}
+
+	.col-md-12 {
+		width: 100%;
+		float: left;
+	}
+}
+
+@media (max-width: 767px){
+	.col-sm-12 {
+		width: 100%;
+		float: left;
+	}
+}
+
